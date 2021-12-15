@@ -1,0 +1,28 @@
+
+body {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+table {
+  margin: 10px;
+  /* border-collapse: collapse; */
+}
+
+
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: center;
+  
+}
+
+th {
+  border-collapse: separate;
+}
+
+caption{
+  display:table-header-group;
+  text-align: center;
+}

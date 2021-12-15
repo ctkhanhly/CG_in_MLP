@@ -1,0 +1,13 @@
+/visualization
+/ngrok-stable-linux-amd64.tgz
+html2pdf.py
+/ngrok
+/logs
+/data
+/node_modules
+/server.js
+/__pycache__
+/package-lock.json
+/package.json
+/assets/css/table.css
+models/__pycache__
