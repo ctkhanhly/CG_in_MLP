@@ -1,0 +1,81 @@
+\hfill
+\begin{center}
+\hspace*{-3cm}
+\begin{tabular}{||c | c | c | c | c | c | c | c ||}
+	\hline
+	optimizer & model & lr & total time & \texttt{func\_calls} & \texttt{n\_iter} & maxit & no. params < 1e-6 \\ [0.5ex]
+	\hline\hline
+	SGD & MLP & 0.0001 & 11.045 & N/A & N/A & 3000 & 49.623\%\\
+	\hline
+	SGD & MLP & 0.001 & 11.508 & N/A & N/A & 3000 & 49.789\%\\
+	\hline
+	SGD & MLP & 0.01 & 11.962 & N/A & N/A & 3000 & 49.597\%\\
+	\hline
+	SGD & MLP & 0.2 & 8.798 & N/A & N/A & 3000 & 51.725\%\\
+	\hline
+	SGD & MLP & 0.3 & 0.649 & N/A & N/A & 3000 & 56.149\%\\
+	\hline
+	SGD & MLP & 0.4 & 0.055 & N/A & N/A & 3000 & 67.391\%\\
+	\hline
+	SGD & MLPLarge & 0.0001 & 35.902 & N/A & N/A & 3000 & 49.863\%\\
+	\hline
+	SGD & MLPLarge & 0.001 & 36.817 & N/A & N/A & 3000 & 49.969\%\\
+	\hline
+	SGD & MLPLarge & 0.01 & 36.51 & N/A & N/A & 3000 & 49.831\%\\
+	\hline
+	SGD & MLPLarge & 0.2 & 36.049 & N/A & N/A & 3000 & 55.358\%\\
+	\hline
+	SGD & MLPLarge & 0.3 & 36.096 & N/A & N/A & 3000 & 56.308\%\\
+	\hline
+	SGD & MLPLarge & 0.4 & 0.085 & N/A & N/A & 3000 & 63.065\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.0001 & 2.76 & N/A & N/A & 3000 & 49.830\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.001 & 2.716 & N/A & N/A & 3000 & 49.701\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.01 & 2.731 & N/A & N/A & 3000 & 49.731\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.2 & 1.225 & N/A & N/A & 3000 & 51.690\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.3 & 1.109 & N/A & N/A & 3000 & 54.822\%\\
+	\hline
+	SGD & MLPMultistep10 & 0.4 & 0.199 & N/A & N/A & 3000 & 58.604\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.0001 & 2.326 & N/A & N/A & 3000 & 49.902\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.001 & 1.089 & N/A & N/A & 3000 & 49.779\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.01 & 0.095 & N/A & N/A & 3000 & 49.415\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.2 & 0.034 & N/A & N/A & 3000 & 49.726\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.3 & 0.043 & N/A & N/A & 3000 & 49.911\%\\
+	\hline
+	SGD & MLPMultistep20 & 0.4 & 0.045 & N/A & N/A & 3000 & 49.826\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.0001 & 5.115 & N/A & N/A & 3000 & 49.869\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.001 & 5.178 & N/A & N/A & 3000 & 49.705\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.01 & 5.309 & N/A & N/A & 3000 & 49.973\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.2 & 5.244 & N/A & N/A & 3000 & 53.229\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.3 & 4.856 & N/A & N/A & 3000 & 53.135\%\\
+	\hline
+	SGD & MLPMultistep3 & 0.4 & 1.345 & N/A & N/A & 3000 & 59.329\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.0001 & 3.444 & N/A & N/A & 3000 & 49.977\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.001 & 3.461 & N/A & N/A & 3000 & 49.847\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.01 & 3.519 & N/A & N/A & 3000 & 50.119\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.2 & 2.167 & N/A & N/A & 3000 & 53.496\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.3 & 0.203 & N/A & N/A & 3000 & 59.227\%\\
+	\hline
+	SGD & MLPMultistep5 & 0.4 & 0.017 & N/A & N/A & 3000 & 67.197\%\\ [1ex]
+	\hline
+\end{tabular}
+\end{center}

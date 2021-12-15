@@ -1,0 +1,105 @@
+\hfill
+\begin{center}
+\hspace*{-3cm}
+\begin{tabular}{||c | c | c | c | c | c | c | c ||}
+	\hline
+	optimizer & model & lr & total time & \texttt{func\_calls} & \texttt{n\_iter} & maxit & no. params < 1e-6 \\ [0.5ex]
+	\hline\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLP & 0.0001 & 13.468 & 3047 & 582 & 3000 & 49.855\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLP & 0.001 & 13.707 & 3032 & 774 & 3000 & 50.154\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLP & 0.01 & 13.257 & 3040 & 1012 & 3000 & 49.405\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLP & 0.1 & 9.699 & 2055 & 1172 & 3000 & 49.944\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPLarge & 0.0001 & 41.722 & 3048 & 591 & 3000 & 50.000\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPLarge & 0.001 & 42.505 & 3050 & 733 & 3000 & 49.874\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPLarge & 0.01 & 43.111 & 3040 & 1082 & 3000 & 49.973\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPLarge & 0.1 & 45.816 & 3047 & 1807 & 3000 & 49.951\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep10 & 0.0001 & 2.071 & 1238 & 282 & 3000 & 50.342\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep10 & 0.001 & 1.272 & 709 & 217 & 3000 & 50.266\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep10 & 0.01 & 1.99 & 1010 & 494 & 3000 & 49.834\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep10 & 0.1 & 5.822 & 3026 & 1148 & 3000 & 49.920\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep20 & 0.0001 & 0.044 & 55 & 11 & 3000 & 49.966\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep20 & 0.001 & 0.035 & 46 & 12 & 3000 & 49.728\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep20 & 0.01 & 0.015 & 33 & 12 & 3000 & 49.968\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep20 & 0.1 & 0.004 & 24 & 12 & 3000 & 49.844\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep3 & 0.0001 & 8.873 & 3029 & 1214 & 3000 & 49.931\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep3 & 0.001 & 9.823 & 3042 & 1920 & 3000 & 50.175\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep3 & 0.01 & 5.152 & 1767 & 607 & 3000 & 50.159\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep3 & 0.1 & 8.649 & 3038 & 802 & 3000 & 49.897\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep5 & 0.0001 & 4.482 & 2148 & 607 & 3000 & 49.843\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep5 & 0.001 & 4.815 & 2053 & 975 & 3000 & 50.006\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep5 & 0.01 & 1.096 & 485 & 237 & 3000 & 49.918\%\\
+	\hline
+	\texttt{NonlinearCG\_FR\_PR} & MLPMultistep5 & 0.1 & 1.233 & 559 & 213 & 3000 & 49.820\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLP & 0.0001 & 12.387 & 3028 & 580 & 3000 & 50.169\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLP & 0.001 & 13.937 & 3048 & 750 & 3000 & 49.693\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLP & 0.01 & 4.158 & 978 & 326 & 3000 & 49.896\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLP & 0.1 & 15.02 & 3037 & 1698 & 3000 & 50.146\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPLarge & 0.0001 & 41.746 & 3050 & 598 & 3000 & 50.105\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPLarge & 0.001 & 41.769 & 3041 & 757 & 3000 & 49.932\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPLarge & 0.01 & 42.777 & 3025 & 1043 & 3000 & 49.994\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPLarge & 0.1 & 46.293 & 3050 & 1752 & 3000 & 49.898\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep10 & 0.0001 & 1.515 & 883 & 201 & 3000 & 50.144\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep10 & 0.001 & 2.568 & 1438 & 416 & 3000 & 50.213\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep10 & 0.01 & 0.79 & 425 & 189 & 3000 & 50.234\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep10 & 0.1 & 5.831 & 3026 & 1091 & 3000 & 50.249\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep20 & 0.0001 & 0.059 & 63 & 13 & 3000 & 49.992\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep20 & 0.001 & 0.039 & 47 & 12 & 3000 & 49.817\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep20 & 0.01 & 0.017 & 35 & 12 & 3000 & 50.126\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep20 & 0.1 & 0.004 & 24 & 11 & 3000 & 50.319\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep3 & 0.0001 & 8.659 & 3028 & 935 & 3000 & 49.898\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep3 & 0.001 & 9.542 & 3052 & 1612 & 3000 & 49.914\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep3 & 0.01 & 8.485 & 3031 & 694 & 3000 & 50.288\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep3 & 0.1 & 7.071 & 2468 & 694 & 3000 & 49.978\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep5 & 0.0001 & 5.883 & 2738 & 938 & 3000 & 49.892\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep5 & 0.001 & 4.408 & 1786 & 840 & 3000 & 50.017\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep5 & 0.01 & 0.562 & 266 & 121 & 3000 & 49.814\%\\
+	\hline
+	\texttt{NonlinearCG\_HS} & MLPMultistep5 & 0.1 & 1.246 & 563 & 255 & 3000 & 50.105\%\\ [1ex]
+	\hline
+\end{tabular}
+\end{center}

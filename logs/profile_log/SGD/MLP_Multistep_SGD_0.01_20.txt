@@ -1,0 +1,134 @@
+Model name                            : MLP_Multistep
+The number of input features          : 20
+The number of output features         : 2
+Optimizer name                        : SGD
+Learning rate                         : 0.01
+Max number of iterations              : 3000
+Number of samples in training data    : 39
+Number of samples in tests data       : 16
+Total training time                   : 0.09477114677429199
+Total number of parameters            : 205302
+Percentage of parameters < 1e-9       : 49.41549522167344%
+Percentage of parameters < 1e-7       : 49.41549522167344%
+Percentage of parameters < 1e-6       : 49.41549522167344%
+
+=============================================
+=============================================
+===================Losses====================
+=============================================
+=============================================
+
+
+Loss at iteration [1]: 1.5501445295476264
+Loss at iteration [2]: 1.5380556743005904
+Loss at iteration [3]: 1.5200946733453815
+Loss at iteration [4]: 1.4998819350076393
+Loss at iteration [5]: 1.4786164799648862
+Loss at iteration [6]: 1.457027046936678
+Loss at iteration [7]: 1.43634622252488
+Loss at iteration [8]: 1.4160231985899123
+Loss at iteration [9]: 1.3957974800479118
+Loss at iteration [10]: 1.3756485443393633
+Loss at iteration [11]: 1.3547926403761958
+Loss at iteration [12]: 1.333108747754467
+Loss at iteration [13]: 1.310800552671685
+Loss at iteration [14]: 1.2876931726157397
+Loss at iteration [15]: 1.2636214393761935
+Loss at iteration [16]: 1.2383551923961995
+Loss at iteration [17]: 1.2124766432108416
+Loss at iteration [18]: 1.1858622097476683
+Loss at iteration [19]: 1.1580035181249178
+Loss at iteration [20]: 1.1296907915813164
+Loss at iteration [21]: 1.099721044829755
+Loss at iteration [22]: 1.0691488512987624
+Loss at iteration [23]: 1.0369878076170176
+Loss at iteration [24]: 1.0045268880061904
+Loss at iteration [25]: 0.9709505291192722
+Loss at iteration [26]: 0.9363983905753116
+Loss at iteration [27]: 0.9012490291111036
+Loss at iteration [28]: 0.8658282317241365
+Loss at iteration [29]: 0.8302820768713668
+Loss at iteration [30]: 0.79469123828275
+Loss at iteration [31]: 0.7591619420616723
+Loss at iteration [32]: 0.7245320626508194
+Loss at iteration [33]: 0.6906451871912344
+Loss at iteration [34]: 0.6576393034747
+Loss at iteration [35]: 0.6258855142060703
+Loss at iteration [36]: 0.5963483713969424
+Loss at iteration [37]: 0.5682756576906441
+Loss at iteration [38]: 0.5423826783335414
+Loss at iteration [39]: 0.5189692746504309
+Loss at iteration [40]: 0.4977375521441924
+Loss at iteration [41]: 0.4789325714871332
+Loss at iteration [42]: 0.46251815769947424
+Loss at iteration [43]: 0.4483530236177407
+Loss at iteration [44]: 0.43641617137061
+Loss at iteration [45]: 0.42642478146404894
+Loss at iteration [46]: 0.4181555757310554
+Loss at iteration [47]: 0.41153311138448767
+Loss at iteration [48]: 0.406175875677436
+Loss at iteration [49]: 0.4019670840767817
+Loss at iteration [50]: 0.39869452492250257
+Loss at iteration [51]: 0.39619831639381003
+Loss at iteration [52]: 0.394300310863846
+Loss at iteration [53]: 0.3928742644081668
+Loss at iteration [54]: 0.39182370734632865
+Loss at iteration [55]: 0.3910527085033873
+Loss at iteration [56]: 0.39049054597624816
+Loss at iteration [57]: 0.3900851396910333
+Loss at iteration [58]: 0.3897961636993722
+Loss at iteration [59]: 0.38958975570469934
+Loss at iteration [60]: 0.3894433856608741
+Loss at iteration [61]: 0.38934053725898704
+Loss at iteration [62]: 0.3892681325495114
+Loss at iteration [63]: 0.3892170396336151
+Loss at iteration [64]: 0.3891814588540773
+Loss at iteration [65]: 0.3891566026302516
+Loss at iteration [66]: 0.38913919512587636
+Loss at iteration [67]: 0.38912702694079904
+Loss at iteration [68]: 0.3891184960029136
+Loss at iteration [69]: 0.38911253662601514
+Loss at iteration [70]: 0.3891083170381722
+Loss at iteration [71]: 0.389105351309545
+Loss at iteration [72]: 0.38910323216811254
+Loss at iteration [73]: 0.3891017177644065
+Loss at iteration [74]: 0.38910062257625017
+Loss at iteration [75]: 0.38909982316046704
+Loss at iteration [76]: 0.38909923208095254
+Loss at iteration [77]: 0.38909878934108094
+Loss at iteration [78]: 0.3890984535489644
+Loss at iteration [79]: 0.38909819625407266
+Loss at iteration [80]: 0.3890979953644278
+Loss at iteration [81]: 0.3890978371051902
+Loss at iteration [82]: 0.38909771066957444
+Loss at iteration [83]: 0.389097608470255
+Loss at iteration [84]: 0.389097524849234
+Loss at iteration [85]: 0.3890974561651805
+Loss at iteration [86]: 0.38909739901095475
+Loss at iteration [87]: 0.3890973513550181
+Loss at iteration [88]: 0.3890973113807722
+Loss at iteration [89]: 0.38909727748290673
+Loss at iteration [90]: 0.38909724883501656
+Loss at iteration [91]: 0.3890972244737758
+Loss at iteration [92]: 0.3890972037001543
+Loss at iteration [93]: 0.38909718599251236
+Loss at iteration [94]: 0.38909717082399825
+Loss at iteration [95]: 0.38909715782096593
+Loss at iteration [96]: 0.38909714667077056
+Loss at iteration [97]: 0.3890971370998187
+Loss at iteration [98]: 0.3890971288828785
+Loss at iteration [99]: 0.38909712181953715
+Loss at iteration [100]: 0.38909711573824246
+Loss at iteration [101]: 0.38909711050580265
+Loss at iteration [102]: 0.38909710601278674
+Loss at iteration [103]: 0.3890971021382511
+Loss at iteration [104]: 0.38909709880422055
+Loss at iteration [105]: 0.3890970959323696
+Loss at iteration [106]: 0.3890970934624677
+Loss at iteration [107]: 0.3890970913297562
+Loss at iteration [108]: 0.38909708949403804
+Loss at iteration [109]: 0.38909708791441433
+Loss at iteration [110]: 0.38909708655226527
+Loss at iteration [111]: 0.38909708537821214
+Loss at iteration [112]: 0.38909708436945384
+Loss at iteration [113]: 0.3890970834970897

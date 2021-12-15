@@ -1,0 +1,39 @@
+Model name                            : MLP_Multistep
+The number of input features          : 10
+The number of output features         : 2
+Optimizer name                        : LBFGS
+Learning rate                         : 0.01
+Total number of function evaluations  : 390
+Total number of iterations            : 140
+Max number of iterations              : 3000
+Number of samples in training data    : 71
+Number of samples in tests data       : 30
+Total training time                   : 2.560406446456909
+Total number of parameters            : 203302
+Percentage of parameters < 1e-9       : 49.97097913448958%
+Percentage of parameters < 1e-7       : 49.97097913448958%
+Percentage of parameters < 1e-6       : 49.97245477171892%
+
+=============================================
+=============================================
+===================Losses====================
+=============================================
+=============================================
+
+
+Loss at iteration [1]: 1.6054193206439873
+Loss at iteration [2]: 0.6612939769625995
+Loss at iteration [3]: 0.4250838071834113
+Loss at iteration [4]: 0.30174388018658505
+Loss at iteration [5]: 0.228632238918012
+Loss at iteration [6]: 0.2154240061930187
+Loss at iteration [7]: 0.2149113187632881
+Loss at iteration [8]: 0.2146973155839864
+Loss at iteration [9]: 0.2146307627830912
+Loss at iteration [10]: 0.21457616443288008
+Loss at iteration [11]: 0.21456942792367995
+Loss at iteration [12]: 0.21456322529083163
+Loss at iteration [13]: 0.21454627815059163
+Loss at iteration [14]: 0.21453689405632664
+Loss at iteration [15]: 0.21453144509743635
+Loss at iteration [16]: 0.21452952011899612

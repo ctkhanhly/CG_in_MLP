@@ -1,0 +1,57 @@
+\hfill
+\begin{center}
+\hspace*{-3cm}
+\begin{tabular}{||c | c | c | c | c | c | c | c ||}
+	\hline
+	optimizer & model & lr & total time & \texttt{func\_calls} & \texttt{n\_iter} & maxit & no. params < 1e-6 \\ [0.5ex]
+	\hline\hline
+	Adam & MLP & 0.0001 & 9.461 & N/A & N/A & 3000 & 49.444\%\\
+	\hline
+	Adam & MLP & 0.001 & 6.591 & N/A & N/A & 3000 & 49.719\%\\
+	\hline
+	Adam & MLP & 0.01 & 13.816 & N/A & N/A & 3000 & 61.278\%\\
+	\hline
+	Adam & MLP & 0.1 & 13.833 & N/A & N/A & 3000 & 74.649\%\\
+	\hline
+	Adam & MLPLarge & 0.0001 & 27.108 & N/A & N/A & 3000 & 49.680\%\\
+	\hline
+	Adam & MLPLarge & 0.001 & 12.782 & N/A & N/A & 3000 & 50.967\%\\
+	\hline
+	Adam & MLPLarge & 0.01 & 34.456 & N/A & N/A & 3000 & 66.122\%\\
+	\hline
+	Adam & MLPLarge & 0.1 & 0.048 & N/A & N/A & 3000 & 63.113\%\\
+	\hline
+	Adam & MLPMultistep10 & 0.0001 & 2.249 & N/A & N/A & 3000 & 49.394\%\\
+	\hline
+	Adam & MLPMultistep10 & 0.001 & 0.83 & N/A & N/A & 3000 & 50.129\%\\
+	\hline
+	Adam & MLPMultistep10 & 0.01 & 0.683 & N/A & N/A & 3000 & 64.113\%\\
+	\hline
+	Adam & MLPMultistep10 & 0.1 & 1.908 & N/A & N/A & 3000 & 69.491\%\\
+	\hline
+	Adam & MLPMultistep20 & 0.0001 & 0.27 & N/A & N/A & 3000 & 48.990\%\\
+	\hline
+	Adam & MLPMultistep20 & 0.001 & 0.21 & N/A & N/A & 3000 & 49.564\%\\
+	\hline
+	Adam & MLPMultistep20 & 0.01 & 0.203 & N/A & N/A & 3000 & 56.928\%\\
+	\hline
+	Adam & MLPMultistep20 & 0.1 & 0.314 & N/A & N/A & 3000 & 66.060\%\\
+	\hline
+	Adam & MLPMultistep3 & 0.0001 & 7.088 & N/A & N/A & 3000 & 49.776\%\\
+	\hline
+	Adam & MLPMultistep3 & 0.001 & 7.202 & N/A & N/A & 3000 & 51.222\%\\
+	\hline
+	Adam & MLPMultistep3 & 0.01 & 7.037 & N/A & N/A & 3000 & 68.418\%\\
+	\hline
+	Adam & MLPMultistep3 & 0.1 & 7.342 & N/A & N/A & 3000 & 73.899\%\\
+	\hline
+	Adam & MLPMultistep5 & 0.0001 & 2.971 & N/A & N/A & 3000 & 50.059\%\\
+	\hline
+	Adam & MLPMultistep5 & 0.001 & 1.583 & N/A & N/A & 3000 & 50.515\%\\
+	\hline
+	Adam & MLPMultistep5 & 0.01 & 3.78 & N/A & N/A & 3000 & 66.360\%\\
+	\hline
+	Adam & MLPMultistep5 & 0.1 & 5.114 & N/A & N/A & 3000 & 72.601\%\\ [1ex]
+	\hline
+\end{tabular}
+\end{center}

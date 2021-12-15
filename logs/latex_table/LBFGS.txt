@@ -1,0 +1,57 @@
+\hfill
+\begin{center}
+\hspace*{-3cm}
+\begin{tabular}{||c | c | c | c | c | c | c | c ||}
+	\hline
+	optimizer & model & lr & total time & \texttt{func\_calls} & \texttt{n\_iter} & maxit & no. params < 1e-6 \\ [0.5ex]
+	\hline\hline
+	LBFGS & MLP & 0.0001 & 19.33 & 3009 & 598 & 3000 & 49.555\%\\
+	\hline
+	LBFGS & MLP & 0.001 & 21.194 & 3011 & 772 & 3000 & 50.020\%\\
+	\hline
+	LBFGS & MLP & 0.01 & 27.951 & 3022 & 1110 & 3000 & 49.433\%\\
+	\hline
+	LBFGS & MLP & 0.1 & 38.121 & 3023 & 2095 & 3000 & 49.969\%\\
+	\hline
+	LBFGS & MLPLarge & 0.0001 & 60.556 & 3005 & 588 & 3000 & 49.872\%\\
+	\hline
+	LBFGS & MLPLarge & 0.001 & 67.297 & 3009 & 768 & 3000 & 49.965\%\\
+	\hline
+	LBFGS & MLPLarge & 0.01 & 80.399 & 3018 & 1103 & 3000 & 49.917\%\\
+	\hline
+	LBFGS & MLPLarge & 0.1 & 121.01 & 3015 & 2143 & 3000 & 49.672\%\\
+	\hline
+	LBFGS & MLPMultistep10 & 0.0001 & 3.095 & 714 & 144 & 3000 & 50.050\%\\
+	\hline
+	LBFGS & MLPMultistep10 & 0.001 & 2.621 & 512 & 134 & 3000 & 50.001\%\\
+	\hline
+	LBFGS & MLPMultistep10 & 0.01 & 2.56 & 390 & 140 & 3000 & 49.972\%\\
+	\hline
+	LBFGS & MLPMultistep10 & 0.1 & 2.985 & 271 & 168 & 3000 & 50.044\%\\
+	\hline
+	LBFGS & MLPMultistep20 & 0.0001 & 0.333 & 140 & 29 & 3000 & 49.955\%\\
+	\hline
+	LBFGS & MLPMultistep20 & 0.001 & 0.34 & 118 & 34 & 3000 & 49.941\%\\
+	\hline
+	LBFGS & MLPMultistep20 & 0.01 & 0.346 & 91 & 39 & 3000 & 49.734\%\\
+	\hline
+	LBFGS & MLPMultistep20 & 0.1 & 0.746 & 82 & 72 & 3000 & 49.915\%\\
+	\hline
+	LBFGS & MLPMultistep3 & 0.0001 & 19.638 & 3019 & 626 & 3000 & 50.226\%\\
+	\hline
+	LBFGS & MLPMultistep3 & 0.001 & 23.64 & 3019 & 831 & 3000 & 51.369\%\\
+	\hline
+	LBFGS & MLPMultistep3 & 0.01 & 30.207 & 3006 & 1147 & 3000 & 51.311\%\\
+	\hline
+	LBFGS & MLPMultistep3 & 0.1 & 30.817 & 1976 & 1308 & 3000 & 51.328\%\\
+	\hline
+	LBFGS & MLPMultistep5 & 0.0001 & 17.105 & 3020 & 616 & 3000 & 50.003\%\\
+	\hline
+	LBFGS & MLPMultistep5 & 0.001 & 20.78 & 3003 & 790 & 3000 & 50.012\%\\
+	\hline
+	LBFGS & MLPMultistep5 & 0.01 & 27.025 & 3017 & 1101 & 3000 & 50.376\%\\
+	\hline
+	LBFGS & MLPMultistep5 & 0.1 & 10.816 & 844 & 496 & 3000 & 50.032\%\\ [1ex]
+	\hline
+\end{tabular}
+\end{center}

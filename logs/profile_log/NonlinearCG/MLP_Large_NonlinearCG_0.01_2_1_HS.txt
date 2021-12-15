@@ -1,0 +1,33 @@
+Model name                            : MLP_Large
+The number of input features          : 2
+The number of output features         : 1
+Optimizer name                        : NonlinearCG
+Learning rate                         : 0.01
+Beta type                             :HS
+Total number of function evaluations  : 25
+Total number of iterations            : 8
+Max number of iterations              : 1
+Number of samples in training data    : 858
+Number of samples in tests data       : 368
+Total training time                   : 0.3612394332885742
+Total number of parameters            : 402001
+Percentage of parameters < 1e-9       : 50.01579598060702%
+Percentage of parameters < 1e-7       : 50.01579598060702%
+Percentage of parameters < 1e-6       : 50.016542247407344%
+
+=============================================
+=============================================
+===================Losses====================
+=============================================
+=============================================
+
+
+Loss at iteration [1]: 0.9776684505540063
+Loss at iteration [2]: 0.11516231320553119
+Loss at iteration [3]: 0.018037706460852513
+Loss at iteration [4]: 0.009937941890357814
+Loss at iteration [5]: 0.009114500716000926
+Loss at iteration [6]: 0.0054362114953008306
+Loss at iteration [7]: 0.0031678843421491837
+Loss at iteration [8]: 0.0030834366327805074
+Loss at iteration [9]: 0.0028109687833258474

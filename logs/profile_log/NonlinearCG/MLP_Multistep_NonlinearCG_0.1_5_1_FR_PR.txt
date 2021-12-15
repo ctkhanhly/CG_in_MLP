@@ -1,0 +1,39 @@
+Model name                            : MLP_Multistep
+The number of input features          : 5
+The number of output features         : 2
+Optimizer name                        : NonlinearCG
+Learning rate                         : 0.1
+Beta type                             :FR_PR
+Total number of function evaluations  : 25
+Total number of iterations            : 14
+Max number of iterations              : 1
+Number of samples in training data    : 122
+Number of samples in tests data       : 52
+Total training time                   : 0.07304096221923828
+Total number of parameters            : 202302
+Percentage of parameters < 1e-9       : 50.04695949619875%
+Percentage of parameters < 1e-7       : 50.04745380668506%
+Percentage of parameters < 1e-6       : 50.048442427657655%
+
+=============================================
+=============================================
+===================Losses====================
+=============================================
+=============================================
+
+
+Loss at iteration [1]: 1.522080639976885
+Loss at iteration [2]: 1.1538415012359384
+Loss at iteration [3]: 0.9562770036421756
+Loss at iteration [4]: 0.77794793872899
+Loss at iteration [5]: 0.7055820104944074
+Loss at iteration [6]: 0.6539736491353586
+Loss at iteration [7]: 0.6500931537799767
+Loss at iteration [8]: 0.6331447722123401
+Loss at iteration [9]: 0.5904285350554963
+Loss at iteration [10]: 0.573069100371716
+Loss at iteration [11]: 0.5585493426716511
+Loss at iteration [12]: 0.5485261835478601
+Loss at iteration [13]: 0.5385538266107147
+Loss at iteration [14]: 0.5327620127065137
+Loss at iteration [15]: 0.5296962259466823
